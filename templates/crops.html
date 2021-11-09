@@ -1,0 +1,68 @@
+<!DOCTYPE html >
+<html >
+<head>
+<meta charset=utf-8" />
+<title>Cultivation-Crop page</title>
+<link rel="stylesheet"type="text/css"  href="crops.css">
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='crops.css') }}">
+</head>
+
+<body>
+
+    <div class="back">
+        <a  href="/">Home</a>
+    </div>
+   
+    <img src="{{ url_for('static', filename='img/logo.jpg') }}" class="logo"/>
+<div class="container">
+<h1>Crops </h1>
+<p class="para">
+    The development of agriculture and industry involved a vaster usage of plants than just 
+    for eating or feeding domestic animals. Furthermore, when mankind satisfied its primary 
+    needs in food and industrial products, it started thinking about the aesthetic side as well. 
+    Thus, various plants were used in home décor and landscape design.<br>
+    There are several classifications of crops depending on what is taken to determine the ambiguity:
+    <ul>
+        <li>Season of sowing (spring or fall).</li>
+        <li>Origin of plants (local or foreign)..</li>
+        <li> Purpose of growing. This classification falls into six basic groups:.</li>
+    </ul>
+</p>
+<h2>Food crops</h2>
+<p class="para">for human needs (e.g. wheat, maize, legumes, rice, potatoes, tomatoes)..</p>
+<h2>Feed crops</h2>
+<p class="para">or cattle or livestock consumption (e.g. barley, beets, grasses for domestic animals to graze and store as hay or silage).</p>
+<h2>Fiber crops:</h2>
+<p class="para">for the sake of fibers used in clothes, bedding, industry, and household (hemp, cotton, flax, bamboo).</p>
+<h2>Oil crops:</h2>
+<p class="para">for oil manufacturing either for machinery fuel (rape) or food industry (sunflower, olives).</p>
+<h2>Ornamental crops:</h2>
+<p class="para">for home decoration and landscape design (garden or pot flowers and bushes).</p>
+<h2>Industrial crops:</h2>
+<p class="para">for industrial manufacturing (rubber).</p>
+<p class="para">In the rest of the cases, the groups are interchangeable. Thus, 
+    wheat and oats can be used both as food and feed crops, depending on their quality. 
+    Flax seeds are a useful dietary supplement while its fibers are utilized in textiles.
+     Sugarcane is the source of edible sugar and alcohol for bioethanol.  
+    
+    </p>
+
+</div>
+
+<div class="img_table">
+    <table>
+        <tr><img src="{{ url_for('static', filename='img/p6.jpg') }}" alt=""></tr><br>
+        <tr><img src="{{ url_for('static', filename='img/p7.jpg') }}" alt=""></tr><br>
+        <tr><img src="{{ url_for('static', filename='img/p8.jpg') }}" alt=""></tr><br>
+        <tr><img src="{{ url_for('static', filename='img/p9.jpg') }}" alt=""></tr><br>
+        <tr><img src="{{ url_for('static', filename='img/p10.jpg') }}" alt=""></tr><br>
+   
+    </table>
+</div>
+<div class="footer_colour">
+<div class="my_footer">&copy; 
+uditha.nayanagith@gmail.com &nbsp;&nbsp;&nbsp;  Designed by Uditha Nayanajith
+</div>
+</div>
+</body>
+</html>

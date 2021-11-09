@@ -1,0 +1,55 @@
+<!DOCTYPE html >
+<html >
+<head>
+<meta charset="utf-8" />
+<title>Cultivation-Plant page</title>
+<link rel="stylesheet"type="text/css"  href="plants.css">
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='plants.css') }}">
+</head>
+
+<body>
+
+    <div class="back">
+        <a  href="/">Home</a>
+    </div>
+   
+    <img src="{{ url_for('static', filename='img/logo.jpg') }}" class="logo"/>
+<div class="container">
+<h1>Food from Plants </h1>
+<p class="para">
+ Plants are very useful to us and we get most of our food from plants.
+ Everybody needs food to stay alive. Food is one of our basic needs. 
+ It gives us energy to work. Most of our food comes from plants. Plants give us many things..</p>
+ <p class="para">Plants give us vegetables, fruits, cereals and pulses. 
+     Plants also give us coffee, tea, sugar, oil and spices. We get food 
+     from different parts of plants. We eat roots, leaves, stems, flowers and fruits of plants.....</p>
+ 
+<h1>Vegetables & Fruits:</h1>
+<p class="para">We get vegetables from plants. Some vegetables are available throughout the year.
+     Some vegetables are available in one season only,Some vegetables are beetroot, spinach, turnip and cauliflower. </p>
+     <h2>Roots:</h2>
+     <p class="para"> Beetroot, radish, carrot and turnip are some of the roots that we eat as vegetables.</p>
+<h2>Leaves</h2>
+<p class="para">Spinach, lettuce and cabbage are some of the leaves that we eat as vegetables.</p>
+<h2>Flowers</h2>
+<p class="para">Broccoli and cauliflower are some of the flowers that we eat as vegetables.</p>
+<h2>Fruits:</h2>
+<p class="para">We get fruits from plants. Fruits are of many kinds. Some fruits are juicy and fleshy.
+    Some of the fruits that we eat are orange, mango, apple, grapes, etc.</p>
+</div>
+
+<div class="img_table">
+    <table>
+        <tr><img src="{{ url_for('static', filename='img/p1.jpg') }}" alt=""></tr><br>
+        <tr><img src="{{ url_for('static', filename='img/p2.jpg') }}" alt=""></tr><br>
+        <tr><img src="{{ url_for('static', filename='img/p3.jpg') }}" alt=""></tr>
+        <tr><img src="{{ url_for('static', filename='img/p4.jpg') }}" alt=""></tr>
+    </table>
+</div>
+<div class="footer_colour">
+<div class="my_footer">&copy; 
+uditha.nayanagith@gmail.com &nbsp;&nbsp;&nbsp;  Designed by Uditha Nayanajith
+</div>
+</div>
+</body>
+</html>

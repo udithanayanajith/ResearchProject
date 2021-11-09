@@ -1,0 +1,48 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 1 years old!", "I was bron with earth!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me culti-bot.", "I'm culti-bot!","culti-bot"],
+         "context_set": ""
+        },
+        {"tag": "shop",
+         "patterns": ["Id like to plant something", "whats on the menu", "what do you reccommend?", "could i get something to plant"],
+         "responses": ["We can plant chilies", "banana are on the menu!"],
+         "context_set": ""
+        },
+         {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context_set": ""
+        },
+         {"tag": "distric",
+         "patterns": ["Gampaha", "I'm from Gampaha", "I live in gampaha distric"],
+         "responses": ["Oh,Do you live in a vilage or a Town", "Where your hme is in ?", "Are you in urban area?"],
+         "context_set": ""
+        },
+         {"tag": "area",
+         "patterns": ["I want to plant somthing", "Suggest me plants", "planting"],
+         "responses": ["Where do you live distric", "Where are you from, I meant disrtic", "your distric ?"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are those bare", "what are your estimated time", "hours of operation"],
+         "responses": ["3 months!"],
+         "context_set": ""
+        }
+   ]
+}

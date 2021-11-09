@@ -1,0 +1,37 @@
+body{
+	background-size:cover;
+	background-position:center;
+
+	font-family:sans-serif;
+}
+.logo{
+    margin-left: 40%;
+}
+.my_footer
+{    margin-left: 672px;
+     font-size: medium;
+    font-family: system-ui;
+    margin-top: 160px;
+}
+.footer_colour{
+	background-color: rgb(57, 58, 56);
+	height: 30px;
+}
+.container{
+    width: 1000px;
+    margin-left: 5px;
+
+}
+.para{
+    font-size: 24px;
+}
+.img_table{
+    margin-left: 63%;
+    margin-top: -61%;
+}
+	
+.back{
+	font-size: 36px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}

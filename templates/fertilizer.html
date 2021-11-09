@@ -1,0 +1,57 @@
+<!DOCTYPE html >
+<html >
+<head>
+<meta charset="utf-8" />
+<title>Cultivation-Fertilizer page</title>
+<link rel="stylesheet"type="text/css"  href="fertilizer.css">
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='fertilizer.css') }}">
+</head>
+
+<body>
+
+    <div class="back">
+        <a  href="/">Home</a>
+    </div>
+   
+    <img src="{{ url_for('static', filename='img/logo.jpg') }}" class="logo"/>>
+<div class="container">
+<h2>Fertilizers </h2>
+<p class="para">
+    Plants need nutrients to grow which they absorb from the soil via the plant’s root system.
+     Fertilizers provide the major nutrients (nitrogen, phosphorus and potassium and important
+      secondary elements) that plants need. Unless the nutrients are replenished,
+     the soil’s productive capacity declines with every harvest.</p>
+  
+<h2>Mineral Fertilizers:</h2>
+<p class="para">The European fertilizer industry transforms millions of tons of naturally occurring raw materials such as air,
+     natural gas and mined ores into high quality plant nutrition products . </p>
+     <li>Nitrogen fertilizers</li>
+     <li>Nitrogen fertilizers with inhibitors</li>
+     <li>Phosphorus fertilizers</li>
+     <li>Potassium fertilizers</li>
+<h2>Organic fertilizers:</h2>
+<p class="para"> Crop residues, animal manures and slurries are the principal organic fertilizers. Although they have 
+    varying nutritional values, they are generally present on the farm and the nutrients and the organic carbon they contain are recycled. Animal manures and
+     slurries cover a wide range of nutrient sources with different physical properties and nutrient contents. Furthermore, their nutrient content vary regionally and
+     depend on the type of livestock and the farm management system.</p>
+<h2>Other types of Plant Nutrition</h2>
+<p class="para">A wide range of so called fertilizing products can help farmers to adapt their fertilization practices to their environmental and farm conditions: organic fertilizer, organo-mineral fertilizer, 
+    mineral fertilizer incl. inhibitors, liming material, growing media, plant biostimulants etc.</p>
+
+<div class="img_table">
+    <table>
+        <tr><img src="{{ url_for('static', filename='img/f1.jpg') }}" alt=""></tr>
+        <tr><img src="{{ url_for('static', filename='img/f4.jpg') }}" alt=""></tr><br>
+        <tr><img src="{{ url_for('static', filename='img/f3.jpg') }}" alt=""></tr><br>
+        <tr><img src="{{ url_for('static', filename='img/f2.jpg') }}" alt=""></tr><br>
+    
+   
+    </table>
+</div>
+<div class="footer_colour">
+<div class="my_footer">&copy; 
+uditha.nayanagith@gmail.com &nbsp;&nbsp;&nbsp;  Designed by Uditha Nayanajith
+</div>
+</div>
+</body>
+</html>
